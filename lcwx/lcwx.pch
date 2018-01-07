@@ -1,0 +1,100 @@
+//
+//  lcwx.pch
+//  lcwx
+//
+//  Created by luck on 2018/1/7.
+//  Copyright © 2018年 luck. All rights reserved.
+//
+
+#ifndef lcwx_pch
+#define lcwx_pch
+
+#import <Masonry.h>
+#import <AFNetworking.h>
+#import <SDImageCache.h>
+#import <MBProgressHUD.h>
+#import <BlocksKit.h>
+#import <ReactiveObjC.h>
+#import <XRWaterfallLayout.h>
+#import <TTGTagCollectionView.h>
+#import <MJExtension.h>
+#import <UICKeyChainStore.h>
+#import <CocoaLumberjack.h>
+
+#import "UIView+Frame.h"
+#import "UIView+Common.h"
+#import "UILabel+Common.h"
+#import "UIColor+expanded.h"
+#import "UIImage+Common.h"
+
+
+#define lcwx_dev
+
+
+
+#ifdef lcwx_dev
+static const int ddLogLevel = DDLogLevelVerbose;
+#define host  @""
+#else
+static const int ddLogLevel = DDLogLevelOff;
+#define host  @""
+#endif
+
+
+#define kAUTOSCALE_WIDTH(width) (width) * ScreenWidth/375.00
+
+#define kAUTOSCALE_HEIGHT(height) (height) * ScreenHeight/667.00
+
+#define ScreenBounds [UIScreen mainScreen].bounds
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define hi_color(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+
+#define hi_color_a(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+
+/**
+ *  等于某个版本号
+ *
+ *
+ *  @return 等于 YES  否则 NO
+ */
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+/**
+ *  大于某个版本号
+ *
+ *
+ *  @return 大于 YES 否则 NO
+ */
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+/**
+ *  大于或等于版本号
+ *
+ *
+ *  @return 大于或等于 YES 否则 NO
+ */
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+/**
+ *  小于某个版本号
+ *
+ *
+ *  @return 小于 YES 否则 NO
+ */
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+/**
+ *  小于等于V
+ *
+ *
+ *  @return 小于或等于 YES 否则 NO
+ */
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+#ifndef IS_PHONE
+#define IS_PHONE (UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPhone)
+#endif
+
+
+#endif /* lcwx_pch */

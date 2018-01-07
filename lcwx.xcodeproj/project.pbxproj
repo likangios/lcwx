@@ -7,15 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3BED382F4CEC54F9994291 /* libPods-lcwx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B24900A4F571E0CAF9EE78 /* libPods-lcwx.a */; };
 		8490335A2001CF6F00E7CA26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033592001CF6F00E7CA26 /* AppDelegate.m */; };
 		8490335D2001CF6F00E7CA26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490335C2001CF6F00E7CA26 /* ViewController.m */; };
 		849033602001CF6F00E7CA26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8490335E2001CF6F00E7CA26 /* Main.storyboard */; };
 		849033622001CF6F00E7CA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849033612001CF6F00E7CA26 /* Assets.xcassets */; };
 		849033652001CF6F00E7CA26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849033632001CF6F00E7CA26 /* LaunchScreen.storyboard */; };
 		849033682001CF6F00E7CA26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033672001CF6F00E7CA26 /* main.m */; };
+		8490338120022DDD00E7CA26 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490337F20022DDD00E7CA26 /* BaseViewController.m */; };
+		8490339420022DE900E7CA26 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490338320022DE600E7CA26 /* UILabel+Common.m */; };
+		8490339520022DE900E7CA26 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490338520022DE600E7CA26 /* UIViewController+Tracking.m */; };
+		8490339620022DE900E7CA26 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490338620022DE700E7CA26 /* UIColor+expanded.m */; };
+		8490339720022DE900E7CA26 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490338720022DE700E7CA26 /* UIView+Common.m */; };
+		8490339820022DE900E7CA26 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490338920022DE700E7CA26 /* UIView+Frame.m */; };
+		8490339920022DE900E7CA26 /* UITableViewCell+BGetCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490338B20022DE700E7CA26 /* UITableViewCell+BGetCellHeight.m */; };
+		8490339A20022DE900E7CA26 /* CALayer+BLayerBorderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490338C20022DE700E7CA26 /* CALayer+BLayerBorderColor.m */; };
+		8490339B20022DE900E7CA26 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490338E20022DE800E7CA26 /* UIImage+Common.m */; };
+		8490339C20022DE900E7CA26 /* UIImage+ResizeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490339020022DE800E7CA26 /* UIImage+ResizeImage.m */; };
+		8490339F20022DF000E7CA26 /* MSUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490339D20022DF000E7CA26 /* MSUntil.m */; };
+		849033B020022E0300E7CA26 /* MSActionBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033A020022DFD00E7CA26 /* MSActionBase.m */; };
+		849033B120022E0300E7CA26 /* MSChangePasswordAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033A120022DFD00E7CA26 /* MSChangePasswordAction.m */; };
+		849033B220022E0300E7CA26 /* MSStoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033A220022DFD00E7CA26 /* MSStoreService.m */; };
+		849033B320022E0300E7CA26 /* MSActionFindPWD.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033A720022DFE00E7CA26 /* MSActionFindPWD.m */; };
+		849033B420022E0300E7CA26 /* MSSignupWithPhoneAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033A820022DFE00E7CA26 /* MSSignupWithPhoneAction.m */; };
+		849033B520022E0300E7CA26 /* MSConfirmCodeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033A920022DFE00E7CA26 /* MSConfirmCodeAction.m */; };
+		849033B620022E0300E7CA26 /* MSSignoutAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033AB20022DFE00E7CA26 /* MSSignoutAction.m */; };
+		849033B720022E0300E7CA26 /* MSLoginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033AE20022DFF00E7CA26 /* MSLoginAction.m */; };
+		849033BC20022E0800E7CA26 /* MSResponeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033B820022E0700E7CA26 /* MSResponeResult.m */; };
+		849033BD20022E0800E7CA26 /* MSHttpActionMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033B920022E0800E7CA26 /* MSHttpActionMgr.m */; };
+		849033C02002E1A400E7CA26 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033BF2002E1A400E7CA26 /* BaseNavigationController.m */; };
+		849033C32002E1E400E7CA26 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033C22002E1E400E7CA26 /* BaseTabBarViewController.m */; };
+		849033C62002E20600E7CA26 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033C52002E20600E7CA26 /* MainViewController.m */; };
+		849033C92002E29F00E7CA26 /* BookShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033C82002E29F00E7CA26 /* BookShelfViewController.m */; };
+		849033CC2002E2BA00E7CA26 /* ChoicenessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033CB2002E2BA00E7CA26 /* ChoicenessViewController.m */; };
+		849033CF2002E2CC00E7CA26 /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033CE2002E2CC00E7CA26 /* RankViewController.m */; };
+		849033D22002E2D700E7CA26 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033D12002E2D700E7CA26 /* AccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19341E4DE614D62C0A66FD2F /* Pods-lcwx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lcwx.release.xcconfig"; path = "Pods/Target Support Files/Pods-lcwx/Pods-lcwx.release.xcconfig"; sourceTree = "<group>"; };
+		4CB16F2A6F688C17502B8C74 /* Pods-lcwx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lcwx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lcwx/Pods-lcwx.debug.xcconfig"; sourceTree = "<group>"; };
 		849033552001CF6F00E7CA26 /* lcwx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lcwx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849033582001CF6F00E7CA26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		849033592001CF6F00E7CA26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +57,64 @@
 		849033642001CF6F00E7CA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849033662001CF6F00E7CA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849033672001CF6F00E7CA26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8490337E200225FF00E7CA26 /* lcwx.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lcwx.pch; sourceTree = "<group>"; };
+		8490337F20022DDD00E7CA26 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		8490338020022DDD00E7CA26 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8490338220022DE600E7CA26 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		8490338320022DE600E7CA26 /* UILabel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Common.m"; sourceTree = "<group>"; };
+		8490338420022DE600E7CA26 /* UITableViewCell+BGetCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+BGetCellHeight.h"; sourceTree = "<group>"; };
+		8490338520022DE600E7CA26 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
+		8490338620022DE700E7CA26 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		8490338720022DE700E7CA26 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		8490338820022DE700E7CA26 /* CALayer+BLayerBorderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+BLayerBorderColor.h"; sourceTree = "<group>"; };
+		8490338920022DE700E7CA26 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		8490338A20022DE700E7CA26 /* UIImage+ResizeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeImage.h"; sourceTree = "<group>"; };
+		8490338B20022DE700E7CA26 /* UITableViewCell+BGetCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+BGetCellHeight.m"; sourceTree = "<group>"; };
+		8490338C20022DE700E7CA26 /* CALayer+BLayerBorderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+BLayerBorderColor.m"; sourceTree = "<group>"; };
+		8490338D20022DE700E7CA26 /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		8490338E20022DE800E7CA26 /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		8490338F20022DE800E7CA26 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		8490339020022DE800E7CA26 /* UIImage+ResizeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeImage.m"; sourceTree = "<group>"; };
+		8490339120022DE800E7CA26 /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		8490339220022DE800E7CA26 /* UILabel+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Common.h"; sourceTree = "<group>"; };
+		8490339320022DE800E7CA26 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		8490339D20022DF000E7CA26 /* MSUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUntil.m; sourceTree = "<group>"; };
+		8490339E20022DF000E7CA26 /* MSUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUntil.h; sourceTree = "<group>"; };
+		849033A020022DFD00E7CA26 /* MSActionBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSActionBase.m; sourceTree = "<group>"; };
+		849033A120022DFD00E7CA26 /* MSChangePasswordAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSChangePasswordAction.m; sourceTree = "<group>"; };
+		849033A220022DFD00E7CA26 /* MSStoreService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStoreService.m; sourceTree = "<group>"; };
+		849033A320022DFD00E7CA26 /* MSConfirmCodeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConfirmCodeAction.h; sourceTree = "<group>"; };
+		849033A420022DFD00E7CA26 /* MSChangePasswordAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSChangePasswordAction.h; sourceTree = "<group>"; };
+		849033A520022DFD00E7CA26 /* MSSignoutAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSignoutAction.h; sourceTree = "<group>"; };
+		849033A620022DFE00E7CA26 /* MSStoreService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSStoreService.h; sourceTree = "<group>"; };
+		849033A720022DFE00E7CA26 /* MSActionFindPWD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSActionFindPWD.m; sourceTree = "<group>"; };
+		849033A820022DFE00E7CA26 /* MSSignupWithPhoneAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSignupWithPhoneAction.m; sourceTree = "<group>"; };
+		849033A920022DFE00E7CA26 /* MSConfirmCodeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSConfirmCodeAction.m; sourceTree = "<group>"; };
+		849033AA20022DFE00E7CA26 /* MSActionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSActionBase.h; sourceTree = "<group>"; };
+		849033AB20022DFE00E7CA26 /* MSSignoutAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSignoutAction.m; sourceTree = "<group>"; };
+		849033AC20022DFE00E7CA26 /* MSActionFindPWD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSActionFindPWD.h; sourceTree = "<group>"; };
+		849033AD20022DFF00E7CA26 /* MSLoginAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLoginAction.h; sourceTree = "<group>"; };
+		849033AE20022DFF00E7CA26 /* MSLoginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLoginAction.m; sourceTree = "<group>"; };
+		849033AF20022E0200E7CA26 /* MSSignupWithPhoneAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSignupWithPhoneAction.h; sourceTree = "<group>"; };
+		849033B820022E0700E7CA26 /* MSResponeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSResponeResult.m; sourceTree = "<group>"; };
+		849033B920022E0800E7CA26 /* MSHttpActionMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHttpActionMgr.m; sourceTree = "<group>"; };
+		849033BA20022E0800E7CA26 /* MSHttpActionMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHttpActionMgr.h; sourceTree = "<group>"; };
+		849033BB20022E0800E7CA26 /* MSResponeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSResponeResult.h; sourceTree = "<group>"; };
+		849033BE2002E1A400E7CA26 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		849033BF2002E1A400E7CA26 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		849033C12002E1E400E7CA26 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		849033C22002E1E400E7CA26 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		849033C42002E20600E7CA26 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		849033C52002E20600E7CA26 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		849033C72002E29F00E7CA26 /* BookShelfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookShelfViewController.h; sourceTree = "<group>"; };
+		849033C82002E29F00E7CA26 /* BookShelfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookShelfViewController.m; sourceTree = "<group>"; };
+		849033CA2002E2BA00E7CA26 /* ChoicenessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChoicenessViewController.h; sourceTree = "<group>"; };
+		849033CB2002E2BA00E7CA26 /* ChoicenessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChoicenessViewController.m; sourceTree = "<group>"; };
+		849033CD2002E2CC00E7CA26 /* RankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		849033CE2002E2CC00E7CA26 /* RankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		849033D02002E2D700E7CA26 /* AccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		849033D12002E2D700E7CA26 /* AccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		F5B24900A4F571E0CAF9EE78 /* libPods-lcwx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lcwx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3BED382F4CEC54F9994291 /* libPods-lcwx.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +134,8 @@
 			children = (
 				849033572001CF6F00E7CA26 /* lcwx */,
 				849033562001CF6F00E7CA26 /* Products */,
+				C10DB15256CB6D240849AB7E /* Pods */,
+				957DD9BA56553C51C751F4DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +150,13 @@
 		849033572001CF6F00E7CA26 /* lcwx */ = {
 			isa = PBXGroup;
 			children = (
+				8490337D2001D86600E7CA26 /* Resources */,
+				849033742001D85C00E7CA26 /* Classes */,
 				849033582001CF6F00E7CA26 /* AppDelegate.h */,
 				849033592001CF6F00E7CA26 /* AppDelegate.m */,
 				8490335B2001CF6F00E7CA26 /* ViewController.h */,
 				8490335C2001CF6F00E7CA26 /* ViewController.m */,
+				8490337E200225FF00E7CA26 /* lcwx.pch */,
 				8490335E2001CF6F00E7CA26 /* Main.storyboard */,
 				849033612001CF6F00E7CA26 /* Assets.xcassets */,
 				849033632001CF6F00E7CA26 /* LaunchScreen.storyboard */,
@@ -71,6 +166,157 @@
 			path = lcwx;
 			sourceTree = "<group>";
 		};
+		849033742001D85C00E7CA26 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				849033752001D85C00E7CA26 /* Category */,
+				849033762001D85C00E7CA26 /* Controller */,
+				849033792001D85C00E7CA26 /* Global */,
+				8490337A2001D85C00E7CA26 /* Model */,
+				8490337B2001D85C00E7CA26 /* Services */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		849033752001D85C00E7CA26 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8490338820022DE700E7CA26 /* CALayer+BLayerBorderColor.h */,
+				8490338C20022DE700E7CA26 /* CALayer+BLayerBorderColor.m */,
+				8490338F20022DE800E7CA26 /* UIColor+expanded.h */,
+				8490338620022DE700E7CA26 /* UIColor+expanded.m */,
+				8490339120022DE800E7CA26 /* UIImage+Common.h */,
+				8490338E20022DE800E7CA26 /* UIImage+Common.m */,
+				8490338A20022DE700E7CA26 /* UIImage+ResizeImage.h */,
+				8490339020022DE800E7CA26 /* UIImage+ResizeImage.m */,
+				8490339220022DE800E7CA26 /* UILabel+Common.h */,
+				8490338320022DE600E7CA26 /* UILabel+Common.m */,
+				8490338420022DE600E7CA26 /* UITableViewCell+BGetCellHeight.h */,
+				8490338B20022DE700E7CA26 /* UITableViewCell+BGetCellHeight.m */,
+				8490339320022DE800E7CA26 /* UIView+Common.h */,
+				8490338720022DE700E7CA26 /* UIView+Common.m */,
+				8490338220022DE600E7CA26 /* UIView+Frame.h */,
+				8490338920022DE700E7CA26 /* UIView+Frame.m */,
+				8490338D20022DE700E7CA26 /* UIViewController+Tracking.h */,
+				8490338520022DE600E7CA26 /* UIViewController+Tracking.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		849033762001D85C00E7CA26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				849033772001D85C00E7CA26 /* Base */,
+				849033782001D85C00E7CA26 /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		849033772001D85C00E7CA26 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8490338020022DDD00E7CA26 /* BaseViewController.h */,
+				8490337F20022DDD00E7CA26 /* BaseViewController.m */,
+				849033BE2002E1A400E7CA26 /* BaseNavigationController.h */,
+				849033BF2002E1A400E7CA26 /* BaseNavigationController.m */,
+				849033C12002E1E400E7CA26 /* BaseTabBarViewController.h */,
+				849033C22002E1E400E7CA26 /* BaseTabBarViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		849033782001D85C00E7CA26 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				849033C42002E20600E7CA26 /* MainViewController.h */,
+				849033C52002E20600E7CA26 /* MainViewController.m */,
+				849033C72002E29F00E7CA26 /* BookShelfViewController.h */,
+				849033C82002E29F00E7CA26 /* BookShelfViewController.m */,
+				849033CA2002E2BA00E7CA26 /* ChoicenessViewController.h */,
+				849033CB2002E2BA00E7CA26 /* ChoicenessViewController.m */,
+				849033CD2002E2CC00E7CA26 /* RankViewController.h */,
+				849033CE2002E2CC00E7CA26 /* RankViewController.m */,
+				849033D02002E2D700E7CA26 /* AccountViewController.h */,
+				849033D12002E2D700E7CA26 /* AccountViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		849033792001D85C00E7CA26 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				8490339E20022DF000E7CA26 /* MSUntil.h */,
+				8490339D20022DF000E7CA26 /* MSUntil.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		8490337A2001D85C00E7CA26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8490337B2001D85C00E7CA26 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				849033BA20022E0800E7CA26 /* MSHttpActionMgr.h */,
+				849033B920022E0800E7CA26 /* MSHttpActionMgr.m */,
+				849033BB20022E0800E7CA26 /* MSResponeResult.h */,
+				849033B820022E0700E7CA26 /* MSResponeResult.m */,
+				8490337C2001D85C00E7CA26 /* Actions */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8490337C2001D85C00E7CA26 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				849033AA20022DFE00E7CA26 /* MSActionBase.h */,
+				849033A020022DFD00E7CA26 /* MSActionBase.m */,
+				849033AC20022DFE00E7CA26 /* MSActionFindPWD.h */,
+				849033A720022DFE00E7CA26 /* MSActionFindPWD.m */,
+				849033A420022DFD00E7CA26 /* MSChangePasswordAction.h */,
+				849033A120022DFD00E7CA26 /* MSChangePasswordAction.m */,
+				849033A320022DFD00E7CA26 /* MSConfirmCodeAction.h */,
+				849033A920022DFE00E7CA26 /* MSConfirmCodeAction.m */,
+				849033AD20022DFF00E7CA26 /* MSLoginAction.h */,
+				849033AE20022DFF00E7CA26 /* MSLoginAction.m */,
+				849033A520022DFD00E7CA26 /* MSSignoutAction.h */,
+				849033AB20022DFE00E7CA26 /* MSSignoutAction.m */,
+				849033AF20022E0200E7CA26 /* MSSignupWithPhoneAction.h */,
+				849033A820022DFE00E7CA26 /* MSSignupWithPhoneAction.m */,
+				849033A620022DFE00E7CA26 /* MSStoreService.h */,
+				849033A220022DFD00E7CA26 /* MSStoreService.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		8490337D2001D86600E7CA26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		957DD9BA56553C51C751F4DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5B24900A4F571E0CAF9EE78 /* libPods-lcwx.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C10DB15256CB6D240849AB7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CB16F2A6F688C17502B8C74 /* Pods-lcwx.debug.xcconfig */,
+				19341E4DE614D62C0A66FD2F /* Pods-lcwx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8490336B2001CF6F00E7CA26 /* Build configuration list for PBXNativeTarget "lcwx" */;
 			buildPhases = (
+				7A6A412584CC42C45895B76D /* [CP] Check Pods Manifest.lock */,
 				849033512001CF6F00E7CA26 /* Sources */,
 				849033522001CF6F00E7CA26 /* Frameworks */,
 				849033532001CF6F00E7CA26 /* Resources */,
+				C2D533E12D4418588D367F0F /* [CP] Embed Pods Frameworks */,
+				C3B44733FCEE8D924E72FC34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +386,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A6A412584CC42C45895B76D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lcwx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D533E12D4418588D367F0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lcwx/Pods-lcwx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/EAIntroView/EAIntroView.framework",
+				"${BUILT_PRODUCTS_DIR}/EARestrictedScrollView/EARestrictedScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/JQFMDB/JQFMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/TTGTagCollectionView/TTGTagCollectionView.framework",
+				"${BUILT_PRODUCTS_DIR}/XRWaterfallLayout/XRWaterfallLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/iCarousel/iCarousel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EAIntroView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EARestrictedScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JQFMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGTagCollectionView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XRWaterfallLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iCarousel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lcwx/Pods-lcwx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B44733FCEE8D924E72FC34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lcwx/Pods-lcwx-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/MWPhotoBrowser/MWPhotoBrowser.bundle,
+				"${PODS_ROOT}/QMUIKit/QMUIKit/UIResources/QMUIResources.bundle",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/UIResources/QMUI_QQEmotion.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lcwx/Pods-lcwx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		849033512001CF6F00E7CA26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8490339920022DE900E7CA26 /* UITableViewCell+BGetCellHeight.m in Sources */,
+				849033B420022E0300E7CA26 /* MSSignupWithPhoneAction.m in Sources */,
+				849033B620022E0300E7CA26 /* MSSignoutAction.m in Sources */,
 				8490335D2001CF6F00E7CA26 /* ViewController.m in Sources */,
+				849033C02002E1A400E7CA26 /* BaseNavigationController.m in Sources */,
+				8490339F20022DF000E7CA26 /* MSUntil.m in Sources */,
+				8490338120022DDD00E7CA26 /* BaseViewController.m in Sources */,
 				849033682001CF6F00E7CA26 /* main.m in Sources */,
+				8490339B20022DE900E7CA26 /* UIImage+Common.m in Sources */,
+				849033C32002E1E400E7CA26 /* BaseTabBarViewController.m in Sources */,
+				849033BD20022E0800E7CA26 /* MSHttpActionMgr.m in Sources */,
+				849033B520022E0300E7CA26 /* MSConfirmCodeAction.m in Sources */,
+				8490339820022DE900E7CA26 /* UIView+Frame.m in Sources */,
+				849033C62002E20600E7CA26 /* MainViewController.m in Sources */,
+				849033CF2002E2CC00E7CA26 /* RankViewController.m in Sources */,
+				8490339620022DE900E7CA26 /* UIColor+expanded.m in Sources */,
+				849033CC2002E2BA00E7CA26 /* ChoicenessViewController.m in Sources */,
+				849033B720022E0300E7CA26 /* MSLoginAction.m in Sources */,
+				849033C92002E29F00E7CA26 /* BookShelfViewController.m in Sources */,
+				849033B320022E0300E7CA26 /* MSActionFindPWD.m in Sources */,
+				8490339420022DE900E7CA26 /* UILabel+Common.m in Sources */,
+				8490339C20022DE900E7CA26 /* UIImage+ResizeImage.m in Sources */,
+				849033D22002E2D700E7CA26 /* AccountViewController.m in Sources */,
+				849033B220022E0300E7CA26 /* MSStoreService.m in Sources */,
+				849033B120022E0300E7CA26 /* MSChangePasswordAction.m in Sources */,
 				8490335A2001CF6F00E7CA26 /* AppDelegate.m in Sources */,
+				8490339520022DE900E7CA26 /* UIViewController+Tracking.m in Sources */,
+				849033B020022E0300E7CA26 /* MSActionBase.m in Sources */,
+				8490339720022DE900E7CA26 /* UIView+Common.m in Sources */,
+				8490339A20022DE900E7CA26 /* CALayer+BLayerBorderColor.m in Sources */,
+				849033BC20022E0800E7CA26 /* MSResponeResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,29 +648,37 @@
 		};
 		8490336C2001CF6F00E7CA26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB16F2A6F688C17502B8C74 /* Pods-lcwx.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5EJ3R9VNE;
+				GCC_PREFIX_HEADER = lcwx/lcwx.pch;
 				INFOPLIST_FILE = lcwx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = luck.lcwx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8490336D2001CF6F00E7CA26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19341E4DE614D62C0A66FD2F /* Pods-lcwx.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5EJ3R9VNE;
+				GCC_PREFIX_HEADER = lcwx/lcwx.pch;
 				INFOPLIST_FILE = lcwx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = luck.lcwx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
