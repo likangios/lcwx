@@ -48,6 +48,7 @@ typedef void(^ActionFailureBlock)(MSActionBase *action,NSError *error,NSURLSessi
  */
 - (BOOL)DoActionWithSuccess:(ActionSuccessBlock)success Failure:(ActionFailureBlock)failure;
 
+- (void)addBaseParameters;
 @end
 #pragma  mark  GET
 /**
@@ -89,5 +90,6 @@ typedef void(^ActionFailureBlock)(MSActionBase *action,NSError *error,NSURLSessi
  *  图片最大尺寸限制 可以不设置 没有限制
  */
 @property (nonatomic,assign) CGSize    upload_image_max_size;
+
 
 @end

@@ -35,10 +35,10 @@
 
 #ifdef lcwx_dev
 static const int ddLogLevel = DDLogLevelVerbose;
-#define host  @""
+#define host  @"http://client.v4.luochen.com/"
 #else
 static const int ddLogLevel = DDLogLevelOff;
-#define host  @""
+#define host  @"http://client.v4.luochen.com/"
 #endif
 
 

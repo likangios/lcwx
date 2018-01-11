@@ -42,6 +42,7 @@
 		849033CC2002E2BA00E7CA26 /* ChoicenessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033CB2002E2BA00E7CA26 /* ChoicenessViewController.m */; };
 		849033CF2002E2CC00E7CA26 /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033CE2002E2CC00E7CA26 /* RankViewController.m */; };
 		849033D22002E2D700E7CA26 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033D12002E2D700E7CA26 /* AccountViewController.m */; };
+		849033D620082B3500E7CA26 /* LCActionCheckAppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033D520082B3500E7CA26 /* LCActionCheckAppVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +115,8 @@
 		849033CE2002E2CC00E7CA26 /* RankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
 		849033D02002E2D700E7CA26 /* AccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
 		849033D12002E2D700E7CA26 /* AccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		849033D420082B3500E7CA26 /* LCActionCheckAppVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionCheckAppVersion.h; sourceTree = "<group>"; };
+		849033D520082B3500E7CA26 /* LCActionCheckAppVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionCheckAppVersion.m; sourceTree = "<group>"; };
 		F5B24900A4F571E0CAF9EE78 /* libPods-lcwx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lcwx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -261,6 +264,7 @@
 		8490337B2001D85C00E7CA26 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				849033D320082AC500E7CA26 /* lcwxAction */,
 				849033BA20022E0800E7CA26 /* MSHttpActionMgr.h */,
 				849033B920022E0800E7CA26 /* MSHttpActionMgr.m */,
 				849033BB20022E0800E7CA26 /* MSResponeResult.h */,
@@ -298,6 +302,23 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		849033D320082AC500E7CA26 /* lcwxAction */ = {
+			isa = PBXGroup;
+			children = (
+				849033D720082B3C00E7CA26 /* sys */,
+				849033D420082B3500E7CA26 /* LCActionCheckAppVersion.h */,
+				849033D520082B3500E7CA26 /* LCActionCheckAppVersion.m */,
+			);
+			path = lcwxAction;
+			sourceTree = "<group>";
+		};
+		849033D720082B3C00E7CA26 /* sys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sys;
 			sourceTree = "<group>";
 		};
 		957DD9BA56553C51C751F4DD /* Frameworks */ = {
@@ -493,6 +514,7 @@
 				8490335D2001CF6F00E7CA26 /* ViewController.m in Sources */,
 				849033C02002E1A400E7CA26 /* BaseNavigationController.m in Sources */,
 				8490339F20022DF000E7CA26 /* MSUntil.m in Sources */,
+				849033D620082B3500E7CA26 /* LCActionCheckAppVersion.m in Sources */,
 				8490338120022DDD00E7CA26 /* BaseViewController.m in Sources */,
 				849033682001CF6F00E7CA26 /* main.m in Sources */,
 				8490339B20022DE900E7CA26 /* UIImage+Common.m in Sources */,
