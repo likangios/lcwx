@@ -38,7 +38,7 @@
     [self.parameters setValue:@"95a5b0121e5571ebe55748b61cdc7c20" forKey:@"sign"];
     [self.parameters setValue:@"1514992557000" forKey:@"timestamp"];
     [self.parameters setValue:@"78e7e41a3ddf005f110a8975f8ace5a4,3430857,1514992515" forKey:@"token"];
-    [self.parameters setValue:@"3430857" forKey:@"uid"];
+    [self.parameters setValue:@"3509796" forKey:@"uid"];
 
 }
 

@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "BaseNavigationController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSString *uuid  = [UIDevice currentDevice].identifierForVendor.UUIDString;
     self.window = [[UIWindow alloc]initWithFrame:ScreenBounds];
     self.window.rootViewController = [[BaseNavigationController alloc]initWithRootViewController:[[MainViewController alloc]init]];
     [self.window makeKeyAndVisible];

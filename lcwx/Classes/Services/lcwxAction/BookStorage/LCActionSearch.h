@@ -9,5 +9,5 @@
 #import "MSActionBase.h"
 //搜索
 @interface LCActionSearch : HIActionPostBase
--(id) initWithPageIndex:(NSNumber *)pageindex PageSize:(NSNumber *)pagesize Content:(NSString *)content；
+-(id) initWithPageIndex:(NSNumber *)pageindex PageSize:(NSNumber *)pagesize Content:(NSString *)content;
 @end

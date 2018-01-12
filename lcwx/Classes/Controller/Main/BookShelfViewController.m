@@ -8,6 +8,7 @@
 
 #import "BookShelfViewController.h"
 #import "LCActionCheckAppVersion.h"
+#import "LCActionInit.h"
 @interface BookShelfViewController ()
 
 @end
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    LCActionCheckAppVersion *action =[[LCActionCheckAppVersion alloc]init];
+    LCActionInit *action =[[LCActionInit alloc]initWithIsFir:@0];
     [action DoActionWithSuccess:^(MSActionBase *action, id responseObject, NSURLSessionDataTask *operation) {
         
     } Failure:^(MSActionBase *action, NSError *error, NSURLSessionDataTask *operation) {

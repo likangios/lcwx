@@ -53,6 +53,7 @@
 		EF1559DF2008B9CB009182A8 /* LCActionSearchHot.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559DE2008B9CB009182A8 /* LCActionSearchHot.m */; };
 		EF1559E22008BAC3009182A8 /* LCActionSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559E12008BAC3009182A8 /* LCActionSearch.m */; };
 		EF1559E52008BB9C009182A8 /* LCActionBookCharts.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559E42008BB9C009182A8 /* LCActionBookCharts.m */; };
+		EF1559E82008C906009182A8 /* LCActionUserReceive.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559E72008C906009182A8 /* LCActionUserReceive.m */; };
 		EFFFE0DE2008544E002C868D /* LCActionMobileRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFFE0D82008544E002C868D /* LCActionMobileRegister.m */; };
 		EFFFE0DF2008544E002C868D /* LCActionCheckAppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFFE0DB2008544E002C868D /* LCActionCheckAppVersion.m */; };
 		EFFFE0E02008544E002C868D /* LCActionSendSmsAuthCode.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFFE0DD2008544E002C868D /* LCActionSendSmsAuthCode.m */; };
@@ -154,6 +155,8 @@
 		EF1559E12008BAC3009182A8 /* LCActionSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionSearch.m; sourceTree = "<group>"; };
 		EF1559E32008BB9C009182A8 /* LCActionBookCharts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionBookCharts.h; sourceTree = "<group>"; };
 		EF1559E42008BB9C009182A8 /* LCActionBookCharts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionBookCharts.m; sourceTree = "<group>"; };
+		EF1559E62008C906009182A8 /* LCActionUserReceive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionUserReceive.h; sourceTree = "<group>"; };
+		EF1559E72008C906009182A8 /* LCActionUserReceive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionUserReceive.m; sourceTree = "<group>"; };
 		EFFFE0D72008544E002C868D /* LCActionMobileRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionMobileRegister.h; sourceTree = "<group>"; };
 		EFFFE0D82008544E002C868D /* LCActionMobileRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionMobileRegister.m; sourceTree = "<group>"; };
 		EFFFE0DA2008544E002C868D /* LCActionCheckAppVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionCheckAppVersion.h; sourceTree = "<group>"; };
@@ -440,6 +443,8 @@
 				EFFFE0E82008552C002C868D /* LCActionActivation.m */,
 				EFFFE0EA200856C2002C868D /* LCActionMobileLogin.h */,
 				EFFFE0EB200856C2002C868D /* LCActionMobileLogin.m */,
+				EF1559E62008C906009182A8 /* LCActionUserReceive.h */,
+				EF1559E72008C906009182A8 /* LCActionUserReceive.m */,
 			);
 			path = PersonalCenter;
 			sourceTree = "<group>";
@@ -658,6 +663,7 @@
 				849033D22002E2D700E7CA26 /* AccountViewController.m in Sources */,
 				EF1559D62008917B009182A8 /* LCActionRecommend.m in Sources */,
 				EF1559D320088E35009182A8 /* LCActionAdd.m in Sources */,
+				EF1559E82008C906009182A8 /* LCActionUserReceive.m in Sources */,
 				849033B220022E0300E7CA26 /* MSStoreService.m in Sources */,
 				849033B120022E0300E7CA26 /* MSChangePasswordAction.m in Sources */,
 				EF1559C620088AA7009182A8 /* LCActionInit.m in Sources */,
