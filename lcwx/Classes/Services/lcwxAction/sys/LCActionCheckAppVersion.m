@@ -9,16 +9,18 @@
 #import "LCActionCheckAppVersion.h"
 
 @implementation LCActionCheckAppVersion
+
 -(id) init
 {
     self = [super initWithActionURLString:@"/api/Sys/CheckAppVersion"];
     if( self )
     {
-            self.parameters = [NSMutableDictionary dictionary];
+        self.parameters = [NSMutableDictionary dictionary];
     }
     [self addBaseParameters];
     self.isValid = YES;
     
     return self;
 }
+
 @end

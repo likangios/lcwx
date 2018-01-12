@@ -36,9 +36,15 @@
 #ifdef lcwx_dev
 static const int ddLogLevel = DDLogLevelVerbose;
 #define host  @"http://client.v4.luochen.com/"
+#define ResHost @"http://res.luochen.com"
+#define SignHost @"http://sign.api.luochen.com/Sign/list2/"
 #else
 static const int ddLogLevel = DDLogLevelOff;
 #define host  @"http://client.v4.luochen.com/"
+#define ResHost @"http://res.luochen.com"
+#define SignHost @"http://sign.api.luochen.com/Sign/list2/"
+
+
 #endif
 
 
