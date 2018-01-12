@@ -42,6 +42,17 @@
 		849033CC2002E2BA00E7CA26 /* ChoicenessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033CB2002E2BA00E7CA26 /* ChoicenessViewController.m */; };
 		849033CF2002E2CC00E7CA26 /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033CE2002E2CC00E7CA26 /* RankViewController.m */; };
 		849033D22002E2D700E7CA26 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033D12002E2D700E7CA26 /* AccountViewController.m */; };
+		EF1559C620088AA7009182A8 /* LCActionInit.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559C520088AA7009182A8 /* LCActionInit.m */; };
+		EF1559CA20088BE8009182A8 /* LCActionBookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559C920088BE8009182A8 /* LCActionBookInfo.m */; };
+		EF1559CD20088CCD009182A8 /* LCActionChapterList.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559CC20088CCD009182A8 /* LCActionChapterList.m */; };
+		EF1559D020088D1A009182A8 /* LCActionChapterContent.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559CF20088D1A009182A8 /* LCActionChapterContent.m */; };
+		EF1559D320088E35009182A8 /* LCActionAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559D220088E35009182A8 /* LCActionAdd.m */; };
+		EF1559D62008917B009182A8 /* LCActionRecommend.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559D52008917B009182A8 /* LCActionRecommend.m */; };
+		EF1559D9200895E6009182A8 /* Temp.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559D8200895E6009182A8 /* Temp.m */; };
+		EF1559DC2008A321009182A8 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559DB2008A321009182A8 /* BaseWebViewController.m */; };
+		EF1559DF2008B9CB009182A8 /* LCActionSearchHot.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559DE2008B9CB009182A8 /* LCActionSearchHot.m */; };
+		EF1559E22008BAC3009182A8 /* LCActionSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559E12008BAC3009182A8 /* LCActionSearch.m */; };
+		EF1559E52008BB9C009182A8 /* LCActionBookCharts.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559E42008BB9C009182A8 /* LCActionBookCharts.m */; };
 		EFFFE0DE2008544E002C868D /* LCActionMobileRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFFE0D82008544E002C868D /* LCActionMobileRegister.m */; };
 		EFFFE0DF2008544E002C868D /* LCActionCheckAppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFFE0DB2008544E002C868D /* LCActionCheckAppVersion.m */; };
 		EFFFE0E02008544E002C868D /* LCActionSendSmsAuthCode.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFFE0DD2008544E002C868D /* LCActionSendSmsAuthCode.m */; };
@@ -121,6 +132,28 @@
 		849033CE2002E2CC00E7CA26 /* RankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
 		849033D02002E2D700E7CA26 /* AccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
 		849033D12002E2D700E7CA26 /* AccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		EF1559C420088AA7009182A8 /* LCActionInit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionInit.h; sourceTree = "<group>"; };
+		EF1559C520088AA7009182A8 /* LCActionInit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionInit.m; sourceTree = "<group>"; };
+		EF1559C820088BE8009182A8 /* LCActionBookInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionBookInfo.h; sourceTree = "<group>"; };
+		EF1559C920088BE8009182A8 /* LCActionBookInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionBookInfo.m; sourceTree = "<group>"; };
+		EF1559CB20088CCD009182A8 /* LCActionChapterList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionChapterList.h; sourceTree = "<group>"; };
+		EF1559CC20088CCD009182A8 /* LCActionChapterList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionChapterList.m; sourceTree = "<group>"; };
+		EF1559CE20088D1A009182A8 /* LCActionChapterContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionChapterContent.h; sourceTree = "<group>"; };
+		EF1559CF20088D1A009182A8 /* LCActionChapterContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionChapterContent.m; sourceTree = "<group>"; };
+		EF1559D120088E35009182A8 /* LCActionAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionAdd.h; sourceTree = "<group>"; };
+		EF1559D220088E35009182A8 /* LCActionAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionAdd.m; sourceTree = "<group>"; };
+		EF1559D42008917B009182A8 /* LCActionRecommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionRecommend.h; sourceTree = "<group>"; };
+		EF1559D52008917B009182A8 /* LCActionRecommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionRecommend.m; sourceTree = "<group>"; };
+		EF1559D7200895E6009182A8 /* Temp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Temp.h; sourceTree = "<group>"; };
+		EF1559D8200895E6009182A8 /* Temp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Temp.m; sourceTree = "<group>"; };
+		EF1559DA2008A321009182A8 /* BaseWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
+		EF1559DB2008A321009182A8 /* BaseWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		EF1559DD2008B9CB009182A8 /* LCActionSearchHot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionSearchHot.h; sourceTree = "<group>"; };
+		EF1559DE2008B9CB009182A8 /* LCActionSearchHot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionSearchHot.m; sourceTree = "<group>"; };
+		EF1559E02008BAC3009182A8 /* LCActionSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionSearch.h; sourceTree = "<group>"; };
+		EF1559E12008BAC3009182A8 /* LCActionSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionSearch.m; sourceTree = "<group>"; };
+		EF1559E32008BB9C009182A8 /* LCActionBookCharts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionBookCharts.h; sourceTree = "<group>"; };
+		EF1559E42008BB9C009182A8 /* LCActionBookCharts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionBookCharts.m; sourceTree = "<group>"; };
 		EFFFE0D72008544E002C868D /* LCActionMobileRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionMobileRegister.h; sourceTree = "<group>"; };
 		EFFFE0D82008544E002C868D /* LCActionMobileRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionMobileRegister.m; sourceTree = "<group>"; };
 		EFFFE0DA2008544E002C868D /* LCActionCheckAppVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionCheckAppVersion.h; sourceTree = "<group>"; };
@@ -178,6 +211,8 @@
 				8490335B2001CF6F00E7CA26 /* ViewController.h */,
 				8490335C2001CF6F00E7CA26 /* ViewController.m */,
 				8490337E200225FF00E7CA26 /* lcwx.pch */,
+				EF1559D7200895E6009182A8 /* Temp.h */,
+				EF1559D8200895E6009182A8 /* Temp.m */,
 				8490335E2001CF6F00E7CA26 /* Main.storyboard */,
 				849033612001CF6F00E7CA26 /* Assets.xcassets */,
 				849033632001CF6F00E7CA26 /* LaunchScreen.storyboard */,
@@ -238,6 +273,8 @@
 			children = (
 				8490338020022DDD00E7CA26 /* BaseViewController.h */,
 				8490337F20022DDD00E7CA26 /* BaseViewController.m */,
+				EF1559DA2008A321009182A8 /* BaseWebViewController.h */,
+				EF1559DB2008A321009182A8 /* BaseWebViewController.m */,
 				849033BE2002E1A400E7CA26 /* BaseNavigationController.h */,
 				849033BF2002E1A400E7CA26 /* BaseNavigationController.m */,
 				849033C12002E1E400E7CA26 /* BaseTabBarViewController.h */,
@@ -325,6 +362,8 @@
 		849033D320082AC500E7CA26 /* lcwxAction */ = {
 			isa = PBXGroup;
 			children = (
+				EF1559C720088BD5009182A8 /* ReadingCenter */,
+				EF1559C320088A9A009182A8 /* BookCase */,
 				EFFFE0D52008544E002C868D /* BookStorage */,
 				EFFFE0D62008544E002C868D /* PersonalCenter */,
 				EFFFE0D92008544E002C868D /* sys */,
@@ -349,9 +388,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EF1559C320088A9A009182A8 /* BookCase */ = {
+			isa = PBXGroup;
+			children = (
+				EF1559C420088AA7009182A8 /* LCActionInit.h */,
+				EF1559C520088AA7009182A8 /* LCActionInit.m */,
+				EF1559D120088E35009182A8 /* LCActionAdd.h */,
+				EF1559D220088E35009182A8 /* LCActionAdd.m */,
+			);
+			path = BookCase;
+			sourceTree = "<group>";
+		};
+		EF1559C720088BD5009182A8 /* ReadingCenter */ = {
+			isa = PBXGroup;
+			children = (
+				EF1559C820088BE8009182A8 /* LCActionBookInfo.h */,
+				EF1559C920088BE8009182A8 /* LCActionBookInfo.m */,
+				EF1559CB20088CCD009182A8 /* LCActionChapterList.h */,
+				EF1559CC20088CCD009182A8 /* LCActionChapterList.m */,
+				EF1559CE20088D1A009182A8 /* LCActionChapterContent.h */,
+				EF1559CF20088D1A009182A8 /* LCActionChapterContent.m */,
+			);
+			path = ReadingCenter;
+			sourceTree = "<group>";
+		};
 		EFFFE0D52008544E002C868D /* BookStorage */ = {
 			isa = PBXGroup;
 			children = (
+				EF1559D42008917B009182A8 /* LCActionRecommend.h */,
+				EF1559D52008917B009182A8 /* LCActionRecommend.m */,
+				EF1559DD2008B9CB009182A8 /* LCActionSearchHot.h */,
+				EF1559DE2008B9CB009182A8 /* LCActionSearchHot.m */,
+				EF1559E02008BAC3009182A8 /* LCActionSearch.h */,
+				EF1559E12008BAC3009182A8 /* LCActionSearch.m */,
+				EF1559E32008BB9C009182A8 /* LCActionBookCharts.h */,
+				EF1559E42008BB9C009182A8 /* LCActionBookCharts.m */,
 			);
 			path = BookStorage;
 			sourceTree = "<group>";
@@ -556,6 +627,7 @@
 			files = (
 				8490339920022DE900E7CA26 /* UITableViewCell+BGetCellHeight.m in Sources */,
 				849033B420022E0300E7CA26 /* MSSignupWithPhoneAction.m in Sources */,
+				EF1559CD20088CCD009182A8 /* LCActionChapterList.m in Sources */,
 				849033B620022E0300E7CA26 /* MSSignoutAction.m in Sources */,
 				8490335D2001CF6F00E7CA26 /* ViewController.m in Sources */,
 				849033C02002E1A400E7CA26 /* BaseNavigationController.m in Sources */,
@@ -565,7 +637,9 @@
 				8490339B20022DE900E7CA26 /* UIImage+Common.m in Sources */,
 				EFFFE0DF2008544E002C868D /* LCActionCheckAppVersion.m in Sources */,
 				849033C32002E1E400E7CA26 /* BaseTabBarViewController.m in Sources */,
+				EF1559D020088D1A009182A8 /* LCActionChapterContent.m in Sources */,
 				849033BD20022E0800E7CA26 /* MSHttpActionMgr.m in Sources */,
+				EF1559E22008BAC3009182A8 /* LCActionSearch.m in Sources */,
 				849033B520022E0300E7CA26 /* MSConfirmCodeAction.m in Sources */,
 				8490339820022DE900E7CA26 /* UIView+Frame.m in Sources */,
 				849033C62002E20600E7CA26 /* MainViewController.m in Sources */,
@@ -576,21 +650,29 @@
 				849033B720022E0300E7CA26 /* MSLoginAction.m in Sources */,
 				849033C92002E29F00E7CA26 /* BookShelfViewController.m in Sources */,
 				849033B320022E0300E7CA26 /* MSActionFindPWD.m in Sources */,
+				EF1559DC2008A321009182A8 /* BaseWebViewController.m in Sources */,
 				8490339420022DE900E7CA26 /* UILabel+Common.m in Sources */,
 				EFFFE0E6200854DC002C868D /* LCActionUserStatus.m in Sources */,
 				EFFFE0EC200856C2002C868D /* LCActionMobileLogin.m in Sources */,
 				8490339C20022DE900E7CA26 /* UIImage+ResizeImage.m in Sources */,
 				849033D22002E2D700E7CA26 /* AccountViewController.m in Sources */,
+				EF1559D62008917B009182A8 /* LCActionRecommend.m in Sources */,
+				EF1559D320088E35009182A8 /* LCActionAdd.m in Sources */,
 				849033B220022E0300E7CA26 /* MSStoreService.m in Sources */,
 				849033B120022E0300E7CA26 /* MSChangePasswordAction.m in Sources */,
+				EF1559C620088AA7009182A8 /* LCActionInit.m in Sources */,
 				8490335A2001CF6F00E7CA26 /* AppDelegate.m in Sources */,
 				EFFFE0E02008544E002C868D /* LCActionSendSmsAuthCode.m in Sources */,
 				8490339520022DE900E7CA26 /* UIViewController+Tracking.m in Sources */,
+				EF1559CA20088BE8009182A8 /* LCActionBookInfo.m in Sources */,
 				849033B020022E0300E7CA26 /* MSActionBase.m in Sources */,
 				8490339720022DE900E7CA26 /* UIView+Common.m in Sources */,
+				EF1559D9200895E6009182A8 /* Temp.m in Sources */,
+				EF1559DF2008B9CB009182A8 /* LCActionSearchHot.m in Sources */,
 				EFFFE0DE2008544E002C868D /* LCActionMobileRegister.m in Sources */,
 				EFFFE0E92008552C002C868D /* LCActionActivation.m in Sources */,
 				8490339A20022DE900E7CA26 /* CALayer+BLayerBorderColor.m in Sources */,
+				EF1559E52008BB9C009182A8 /* LCActionBookCharts.m in Sources */,
 				849033BC20022E0800E7CA26 /* MSResponeResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

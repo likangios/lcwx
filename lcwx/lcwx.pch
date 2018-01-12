@@ -28,10 +28,19 @@
 #import "UIColor+expanded.h"
 #import "UIImage+Common.h"
 
+//base
+#import "BaseWebViewController.h"
 
 #define lcwx_dev
-
-
+//H5
+//分类
+// http://client.v4.luochen.com//h5/classify.aspx
+//免费
+//http://client.v4.luochen.com//h5/booklistfree.aspx
+//全本
+//http://client.v4.luochen.com//h5/booklistcomplete.aspx
+//大神
+//http://client.v4.luochen.com//h5/booklistmanito.aspx
 
 #ifdef lcwx_dev
 static const int ddLogLevel = DDLogLevelVerbose;

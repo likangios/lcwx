@@ -1,5 +1,5 @@
 //
-//  LCActionUserStatus.h
+//  LCActionChapterContent.h
 //  lcwx
 //
 //  Created by macdev on 2018/1/12.
@@ -7,7 +7,7 @@
 //
 
 #import "MSActionBase.h"
-//跟新token
-@interface LCActionUserStatus : HIActionPostBase
+
+@interface LCActionChapterContent : HIActionPostBase
 
 @end

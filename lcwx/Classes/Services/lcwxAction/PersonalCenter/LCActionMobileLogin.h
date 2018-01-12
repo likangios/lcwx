@@ -7,7 +7,7 @@
 //
 
 #import "MSActionBase.h"
-
+//手机登录
 @interface LCActionMobileLogin : HIActionPostBase
 
 -(id) initWithMob:(NSString *)mob Pwd:(NSString *)mobkey;

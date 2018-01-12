@@ -45,7 +45,7 @@ static MSHttpActionMgr *shareMgr = nil;
 }
 
 - (AFHTTPSessionManager *)getHttpsRequestMgr{
-    shareMgr.httpRequestMgr.securityPolicy.allowInvalidCertificates = NO;
+    shareMgr.httpRequestMgr.securityPolicy.allowInvalidCertificates = YES;
     return shareMgr.httpRequestMgr;
 }
 -(void) ClearCookies

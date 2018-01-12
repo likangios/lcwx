@@ -29,7 +29,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    BaseWebViewController *web = [[BaseWebViewController alloc]initWithUrl:@"http://client.v4.luochen.com//h5/booklistcomplete.aspx"];
+    [self.navigationController pushViewController:web animated:YES];
+}
 /*
 #pragma mark - Navigation
 

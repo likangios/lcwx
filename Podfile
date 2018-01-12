@@ -25,5 +25,5 @@ pod 'Masonry', '~> 1.1.0'
 pod 'UMengAnalytics-NO-IDFA'
 pod 'UICKeyChainStore', '~> 2.1.0'
 pod 'CocoaLumberjack', '~> 2.2.0'
-
+pod 'WebViewJavascriptBridge', '~> 6.0'
 end

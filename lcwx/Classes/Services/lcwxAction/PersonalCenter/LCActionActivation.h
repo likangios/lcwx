@@ -7,7 +7,7 @@
 //
 
 #import "MSActionBase.h"
-
+//个人信息
 @interface LCActionActivation : HIActionPostBase
 
 @end
