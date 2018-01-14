@@ -9,5 +9,6 @@
 #import "MSActionBase.h"
 
 @interface LCActionInit : HIActionPostBase
+//是不是第一次 isfir
 -(id) initWithIsFir:(NSNumber *)isfir;
 @end

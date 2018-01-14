@@ -97,6 +97,8 @@
     {
         self.parameters = [NSMutableDictionary dictionary];
         [self.parameters setObject:isfir forKey:@"isfir"];
+        [self.parameters setObject:@"" forKey:@"bids"];
+
     }
     [self addBaseParameters];
     self.isValid = YES;

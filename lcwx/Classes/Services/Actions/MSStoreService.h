@@ -54,4 +54,14 @@
  */
 - (void)removeAccountAndPassword;
 
+- (void)setUid:(NSString *)uid;
+- (NSString *)uid;
+- (void)setToken:(NSString *)token;
+- (NSString *)token;
+- (void)setSign:(NSString *)sign;
+- (NSString *)sign;
+- (void)setTimestamp:(NSString *)timestamp;
+- (NSString *)timestamp;
+- (void)setDevice_id:(NSString *)device_id;
+- (NSString *)device_id;
 @end

@@ -62,5 +62,55 @@
     keychain[(__bridge id)kSecAttrAccount] = nil;
     keychain[(__bridge id)kSecValueData] = nil;
 }
+- (void)setUid:(NSString *)uid{
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    [def setObject:uid forKey:@"uid"];
+    [def synchronize];
+}
+- (NSString *)uid{
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    NSString *uid = [def objectForKey:@"uid"];
+    return uid;
+}
+- (void)setToken:(NSString *)token{
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    [def setObject:token forKey:@"token"];
+    [def synchronize];
+}
+- (NSString *)token{
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    NSString *token = [def objectForKey:@"token"];
+    return token;
+}
+- (void)setSign:(NSString *)sign{
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    [def setObject:sign forKey:@"sign"];
+    [def synchronize];
+}
+- (NSString *)sign{
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    NSString *sign = [def objectForKey:@"sign"];
+    return sign;
+}
+- (void)setTimestamp:(NSString *)timestamp{
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    [def setObject:timestamp forKey:@"timestamp"];
+    [def synchronize];
+}
+- (NSString *)timestamp{
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    NSString *timestamp = [def objectForKey:@"timestamp"];
+    return timestamp;
+}
+- (void)setDevice_id:(NSString *)device_id{
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    [def setObject:device_id forKey:@"device_id"];
+    [def synchronize];
+}
+- (NSString *)device_id{
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    NSString *device_id = [def objectForKey:@"device_id"];
+    return device_id;
+}
 
 @end

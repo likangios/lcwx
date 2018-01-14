@@ -194,4 +194,10 @@ NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ012345
     
     return res;
 }
++ (NSString *)LCImageUrlWithImage:(NSString *)name{
+    if (!name.length) {
+        return nil;
+    }
+    return [NSString stringWithFormat:@"%@%@",ResHost,name];
+}
 @end

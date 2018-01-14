@@ -8,6 +8,7 @@
 
 #import "MSActionBase.h"
 #import "MSUntil.h"
+#import "MSStoreService.h"
 @interface MSActionBase ()
 
 @property (nonatomic,strong) NSString *url;
@@ -33,12 +34,13 @@
     
     [self.parameters setValue:@"4.0.4" forKey:@"app_version"];
     [self.parameters setValue:@"1" forKey:@"channel_id"];
-    [self.parameters setValue:@"491bfc819e84bb4d2b291d54c58928ad" forKey:@"device_id"];
     [self.parameters setValue:@"IOS" forKey:@"platform"];
-    [self.parameters setValue:@"95a5b0121e5571ebe55748b61cdc7c20" forKey:@"sign"];
-    [self.parameters setValue:@"1514992557000" forKey:@"timestamp"];
-    [self.parameters setValue:@"78e7e41a3ddf005f110a8975f8ace5a4,3430857,1514992515" forKey:@"token"];
-    [self.parameters setValue:@"3509796" forKey:@"uid"];
+    
+    [self.parameters setValue:[MSStoreService sharedStoreService].device_id forKey:@"device_id"];
+    [self.parameters setValue:[MSStoreService sharedStoreService].sign forKey:@"sign"];
+    [self.parameters setValue:[MSStoreService sharedStoreService].timestamp forKey:@"timestamp"];
+    [self.parameters setValue:[MSStoreService sharedStoreService].token forKey:@"token"];
+    [self.parameters setValue:[MSStoreService sharedStoreService].uid forKey:@"uid"];
 
 }
 

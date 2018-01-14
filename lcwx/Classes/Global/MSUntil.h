@@ -103,4 +103,7 @@
 + (void)hideAllHUDsForView:(UIView *)view;
 
 + (BOOL)checkPhoneNumInput:(NSString *)phone;
+//网络图片地址
++ (NSString *)LCImageUrlWithImage:(NSString *)name;
+
 @end

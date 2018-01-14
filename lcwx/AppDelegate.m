@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "BaseNavigationController.h"
-
+#import "MSStoreService.h"
 @interface AppDelegate ()
 
 @end
@@ -18,7 +18,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSString *uuid  = [UIDevice currentDevice].identifierForVendor.UUIDString;
+    [[MSStoreService sharedStoreService] setTimestamp:@"1515901776000"];
+    [[MSStoreService sharedStoreService] setDevice_id:@"24621e7b2cc9462161000701790643b9"];
+    [[MSStoreService sharedStoreService] setToken:@"dfaadb6f83d1ae990a3b2f0b0909f9c2,0,1515900706"];
+    [[MSStoreService sharedStoreService] setSign:@"efbf35587e50f924835882035a7f19d4"];
+    [[MSStoreService sharedStoreService] setUid:@"0"];
+
     self.window = [[UIWindow alloc]initWithFrame:ScreenBounds];
     self.window.rootViewController = [[BaseNavigationController alloc]initWithRootViewController:[[MainViewController alloc]init]];
     [self.window makeKeyAndVisible];
