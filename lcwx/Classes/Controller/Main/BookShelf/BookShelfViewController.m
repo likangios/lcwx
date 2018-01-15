@@ -7,10 +7,16 @@
 //
 
 #import "BookShelfViewController.h"
+//vc
+#import "SearchViewController.h"
+//view
+#import "BookShelfCollectionViewCell.h"
+#import "NavBarPopMenuView.h"
+//model
+#import "BookShelfModel.h"
+//request
 #import "LCActionCheckAppVersion.h"
 #import "LCActionInit.h"
-#import "BookShelfModel.h"
-#import "BookShelfCollectionViewCell.h"
 
 
 @interface BookShelfViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
@@ -26,6 +32,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self addDefaultBackItem];
+    [self setRightItemImage:@"navigationbar_search_20x20_"];
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.collectionView];
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -33,6 +41,17 @@
         make.left.mas_equalTo(kAUTOSCALE_WIDTH(18));
         make.right.mas_equalTo(-kAUTOSCALE_WIDTH(18));
         make.top.equalTo(self.customNavBar.mas_bottom);
+    }];
+}
+-(void)rightItemAction:(id)sender{
+    SearchViewController *search = [[SearchViewController alloc]init];
+    [self.navigationController pushViewController:search animated:YES];
+}
+- (void)leftItemAction:(id)sender{
+    NavBarPopMenuView *popViwe =[[NavBarPopMenuView alloc]init];
+    [self.view addSubview:popViwe];
+    [popViwe mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
     }];
     
 }
@@ -72,7 +91,8 @@
     return _collectionView;
 }
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return self.model.hot.count;
+//    return self.model.hot.count;
+    return 0;
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     BookShelfCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"BookShelfCollectionViewCell" forIndexPath:indexPath];

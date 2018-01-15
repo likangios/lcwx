@@ -38,14 +38,6 @@
 		849033C02002E1A400E7CA26 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033BF2002E1A400E7CA26 /* BaseNavigationController.m */; };
 		849033C32002E1E400E7CA26 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033C22002E1E400E7CA26 /* BaseTabBarViewController.m */; };
 		849033C62002E20600E7CA26 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033C52002E20600E7CA26 /* MainViewController.m */; };
-		849033C92002E29F00E7CA26 /* BookShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033C82002E29F00E7CA26 /* BookShelfViewController.m */; };
-		849033CC2002E2BA00E7CA26 /* ChoicenessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033CB2002E2BA00E7CA26 /* ChoicenessViewController.m */; };
-		849033CF2002E2CC00E7CA26 /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033CE2002E2CC00E7CA26 /* RankViewController.m */; };
-		849033D22002E2D700E7CA26 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033D12002E2D700E7CA26 /* AccountViewController.m */; };
-		849033DB200B0DC100E7CA26 /* BookShelfModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033DA200B0DC100E7CA26 /* BookShelfModel.m */; };
-		849033DE200B100100E7CA26 /* BookShelfHotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033DD200B100100E7CA26 /* BookShelfHotModel.m */; };
-		849033E1200B116000E7CA26 /* BookShelfItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033E0200B116000E7CA26 /* BookShelfItemModel.m */; };
-		849033E5200B838700E7CA26 /* BookShelfCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849033E4200B838700E7CA26 /* BookShelfCollectionViewCell.m */; };
 		EF1559C620088AA7009182A8 /* LCActionInit.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559C520088AA7009182A8 /* LCActionInit.m */; };
 		EF1559CA20088BE8009182A8 /* LCActionBookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559C920088BE8009182A8 /* LCActionBookInfo.m */; };
 		EF1559CD20088CCD009182A8 /* LCActionChapterList.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559CC20088CCD009182A8 /* LCActionChapterList.m */; };
@@ -58,6 +50,18 @@
 		EF1559E22008BAC3009182A8 /* LCActionSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559E12008BAC3009182A8 /* LCActionSearch.m */; };
 		EF1559E52008BB9C009182A8 /* LCActionBookCharts.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559E42008BB9C009182A8 /* LCActionBookCharts.m */; };
 		EF1559E82008C906009182A8 /* LCActionUserReceive.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559E72008C906009182A8 /* LCActionUserReceive.m */; };
+		EF155A06200C92DE009182A8 /* BookShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559EE200C92DD009182A8 /* BookShelfViewController.m */; };
+		EF155A07200C92DE009182A8 /* BookShelfHotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559F1200C92DD009182A8 /* BookShelfHotModel.m */; };
+		EF155A08200C92DE009182A8 /* BookShelfItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559F3200C92DD009182A8 /* BookShelfItemModel.m */; };
+		EF155A09200C92DE009182A8 /* BookShelfModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559F5200C92DD009182A8 /* BookShelfModel.m */; };
+		EF155A0A200C92DE009182A8 /* BookShelfCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559F9200C92DD009182A8 /* BookShelfCollectionViewCell.m */; };
+		EF155A0B200C92DE009182A8 /* NavBarPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559FB200C92DD009182A8 /* NavBarPopMenuView.m */; };
+		EF155A0C200C92DE009182A8 /* ChoicenessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1559FF200C92DD009182A8 /* ChoicenessViewController.m */; };
+		EF155A0D200C92DE009182A8 /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF155A02200C92DD009182A8 /* RankViewController.m */; };
+		EF155A0E200C92DE009182A8 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF155A05200C92DD009182A8 /* AccountViewController.m */; };
+		EF155A11200C92FE009182A8 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF155A10200C92FE009182A8 /* SearchViewController.m */; };
+		EF155A14200C9390009182A8 /* BaseSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF155A13200C9390009182A8 /* BaseSecondViewController.m */; };
+		EF155A1D200CB53D009182A8 /* LCSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF155A1C200CB53C009182A8 /* LCSegmentView.m */; };
 		EFFFE0DE2008544E002C868D /* LCActionMobileRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFFE0D82008544E002C868D /* LCActionMobileRegister.m */; };
 		EFFFE0DF2008544E002C868D /* LCActionCheckAppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFFE0DB2008544E002C868D /* LCActionCheckAppVersion.m */; };
 		EFFFE0E02008544E002C868D /* LCActionSendSmsAuthCode.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFFE0DD2008544E002C868D /* LCActionSendSmsAuthCode.m */; };
@@ -129,22 +133,6 @@
 		849033C22002E1E400E7CA26 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
 		849033C42002E20600E7CA26 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		849033C52002E20600E7CA26 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		849033C72002E29F00E7CA26 /* BookShelfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookShelfViewController.h; sourceTree = "<group>"; };
-		849033C82002E29F00E7CA26 /* BookShelfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookShelfViewController.m; sourceTree = "<group>"; };
-		849033CA2002E2BA00E7CA26 /* ChoicenessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChoicenessViewController.h; sourceTree = "<group>"; };
-		849033CB2002E2BA00E7CA26 /* ChoicenessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChoicenessViewController.m; sourceTree = "<group>"; };
-		849033CD2002E2CC00E7CA26 /* RankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
-		849033CE2002E2CC00E7CA26 /* RankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
-		849033D02002E2D700E7CA26 /* AccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
-		849033D12002E2D700E7CA26 /* AccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
-		849033D9200B0DC100E7CA26 /* BookShelfModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookShelfModel.h; sourceTree = "<group>"; };
-		849033DA200B0DC100E7CA26 /* BookShelfModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookShelfModel.m; sourceTree = "<group>"; };
-		849033DC200B100100E7CA26 /* BookShelfHotModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookShelfHotModel.h; sourceTree = "<group>"; };
-		849033DD200B100100E7CA26 /* BookShelfHotModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookShelfHotModel.m; sourceTree = "<group>"; };
-		849033DF200B116000E7CA26 /* BookShelfItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookShelfItemModel.h; sourceTree = "<group>"; };
-		849033E0200B116000E7CA26 /* BookShelfItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookShelfItemModel.m; sourceTree = "<group>"; };
-		849033E3200B838700E7CA26 /* BookShelfCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookShelfCollectionViewCell.h; sourceTree = "<group>"; };
-		849033E4200B838700E7CA26 /* BookShelfCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookShelfCollectionViewCell.m; sourceTree = "<group>"; };
 		EF1559C420088AA7009182A8 /* LCActionInit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionInit.h; sourceTree = "<group>"; };
 		EF1559C520088AA7009182A8 /* LCActionInit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionInit.m; sourceTree = "<group>"; };
 		EF1559C820088BE8009182A8 /* LCActionBookInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionBookInfo.h; sourceTree = "<group>"; };
@@ -169,6 +157,30 @@
 		EF1559E42008BB9C009182A8 /* LCActionBookCharts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionBookCharts.m; sourceTree = "<group>"; };
 		EF1559E62008C906009182A8 /* LCActionUserReceive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActionUserReceive.h; sourceTree = "<group>"; };
 		EF1559E72008C906009182A8 /* LCActionUserReceive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActionUserReceive.m; sourceTree = "<group>"; };
+		EF1559ED200C92DD009182A8 /* BookShelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfViewController.h; sourceTree = "<group>"; };
+		EF1559EE200C92DD009182A8 /* BookShelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfViewController.m; sourceTree = "<group>"; };
+		EF1559F0200C92DD009182A8 /* BookShelfHotModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfHotModel.h; sourceTree = "<group>"; };
+		EF1559F1200C92DD009182A8 /* BookShelfHotModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfHotModel.m; sourceTree = "<group>"; };
+		EF1559F2200C92DD009182A8 /* BookShelfItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfItemModel.h; sourceTree = "<group>"; };
+		EF1559F3200C92DD009182A8 /* BookShelfItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfItemModel.m; sourceTree = "<group>"; };
+		EF1559F4200C92DD009182A8 /* BookShelfModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfModel.h; sourceTree = "<group>"; };
+		EF1559F5200C92DD009182A8 /* BookShelfModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfModel.m; sourceTree = "<group>"; };
+		EF1559F8200C92DD009182A8 /* BookShelfCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfCollectionViewCell.h; sourceTree = "<group>"; };
+		EF1559F9200C92DD009182A8 /* BookShelfCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfCollectionViewCell.m; sourceTree = "<group>"; };
+		EF1559FA200C92DD009182A8 /* NavBarPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavBarPopMenuView.h; sourceTree = "<group>"; };
+		EF1559FB200C92DD009182A8 /* NavBarPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavBarPopMenuView.m; sourceTree = "<group>"; };
+		EF1559FE200C92DD009182A8 /* ChoicenessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoicenessViewController.h; sourceTree = "<group>"; };
+		EF1559FF200C92DD009182A8 /* ChoicenessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoicenessViewController.m; sourceTree = "<group>"; };
+		EF155A01200C92DD009182A8 /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		EF155A02200C92DD009182A8 /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		EF155A04200C92DD009182A8 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		EF155A05200C92DD009182A8 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		EF155A0F200C92FE009182A8 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		EF155A10200C92FE009182A8 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		EF155A12200C9390009182A8 /* BaseSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSecondViewController.h; sourceTree = "<group>"; };
+		EF155A13200C9390009182A8 /* BaseSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseSecondViewController.m; sourceTree = "<group>"; };
+		EF155A1B200CB53C009182A8 /* LCSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSegmentView.h; sourceTree = "<group>"; };
+		EF155A1C200CB53C009182A8 /* LCSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSegmentView.m; sourceTree = "<group>"; };
 		EFFFE0D72008544E002C868D /* LCActionMobileRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionMobileRegister.h; sourceTree = "<group>"; };
 		EFFFE0D82008544E002C868D /* LCActionMobileRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionMobileRegister.m; sourceTree = "<group>"; };
 		EFFFE0DA2008544E002C868D /* LCActionCheckAppVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionCheckAppVersion.h; sourceTree = "<group>"; };
@@ -288,6 +300,8 @@
 			children = (
 				8490338020022DDD00E7CA26 /* BaseViewController.h */,
 				8490337F20022DDD00E7CA26 /* BaseViewController.m */,
+				EF155A12200C9390009182A8 /* BaseSecondViewController.h */,
+				EF155A13200C9390009182A8 /* BaseSecondViewController.m */,
 				EF1559DA2008A321009182A8 /* BaseWebViewController.h */,
 				EF1559DB2008A321009182A8 /* BaseWebViewController.m */,
 				849033BE2002E1A400E7CA26 /* BaseNavigationController.h */,
@@ -301,15 +315,13 @@
 		849033782001D85C00E7CA26 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				849033D8200B0D8200E7CA26 /* BookShelf */,
+				EF155A03200C92DD009182A8 /* Account */,
+				EF1559EC200C92DD009182A8 /* BookShelf */,
+				EF1559FD200C92DD009182A8 /* Choice */,
+				EF155A00200C92DD009182A8 /* Rank */,
+				EF1559FC200C92DD009182A8 /* Search */,
 				849033C42002E20600E7CA26 /* MainViewController.h */,
 				849033C52002E20600E7CA26 /* MainViewController.m */,
-				849033CA2002E2BA00E7CA26 /* ChoicenessViewController.h */,
-				849033CB2002E2BA00E7CA26 /* ChoicenessViewController.m */,
-				849033CD2002E2CC00E7CA26 /* RankViewController.h */,
-				849033CE2002E2CC00E7CA26 /* RankViewController.m */,
-				849033D02002E2D700E7CA26 /* AccountViewController.h */,
-				849033D12002E2D700E7CA26 /* AccountViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -385,31 +397,6 @@
 			path = lcwxAction;
 			sourceTree = "<group>";
 		};
-		849033D8200B0D8200E7CA26 /* BookShelf */ = {
-			isa = PBXGroup;
-			children = (
-				849033E2200B831900E7CA26 /* View */,
-				849033C72002E29F00E7CA26 /* BookShelfViewController.h */,
-				849033C82002E29F00E7CA26 /* BookShelfViewController.m */,
-				849033D9200B0DC100E7CA26 /* BookShelfModel.h */,
-				849033DA200B0DC100E7CA26 /* BookShelfModel.m */,
-				849033DC200B100100E7CA26 /* BookShelfHotModel.h */,
-				849033DD200B100100E7CA26 /* BookShelfHotModel.m */,
-				849033DF200B116000E7CA26 /* BookShelfItemModel.h */,
-				849033E0200B116000E7CA26 /* BookShelfItemModel.m */,
-			);
-			name = BookShelf;
-			sourceTree = "<group>";
-		};
-		849033E2200B831900E7CA26 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				849033E3200B838700E7CA26 /* BookShelfCollectionViewCell.h */,
-				849033E4200B838700E7CA26 /* BookShelfCollectionViewCell.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		957DD9BA56553C51C751F4DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +436,87 @@
 				EF1559CF20088D1A009182A8 /* LCActionChapterContent.m */,
 			);
 			path = ReadingCenter;
+			sourceTree = "<group>";
+		};
+		EF1559EC200C92DD009182A8 /* BookShelf */ = {
+			isa = PBXGroup;
+			children = (
+				EF1559ED200C92DD009182A8 /* BookShelfViewController.h */,
+				EF1559EE200C92DD009182A8 /* BookShelfViewController.m */,
+				EF1559EF200C92DD009182A8 /* Model */,
+				EF1559F6200C92DD009182A8 /* Service */,
+				EF1559F7200C92DD009182A8 /* View */,
+			);
+			path = BookShelf;
+			sourceTree = "<group>";
+		};
+		EF1559EF200C92DD009182A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF1559F0200C92DD009182A8 /* BookShelfHotModel.h */,
+				EF1559F1200C92DD009182A8 /* BookShelfHotModel.m */,
+				EF1559F2200C92DD009182A8 /* BookShelfItemModel.h */,
+				EF1559F3200C92DD009182A8 /* BookShelfItemModel.m */,
+				EF1559F4200C92DD009182A8 /* BookShelfModel.h */,
+				EF1559F5200C92DD009182A8 /* BookShelfModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF1559F6200C92DD009182A8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EF1559F7200C92DD009182A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF155A1B200CB53C009182A8 /* LCSegmentView.h */,
+				EF155A1C200CB53C009182A8 /* LCSegmentView.m */,
+				EF1559F8200C92DD009182A8 /* BookShelfCollectionViewCell.h */,
+				EF1559F9200C92DD009182A8 /* BookShelfCollectionViewCell.m */,
+				EF1559FA200C92DD009182A8 /* NavBarPopMenuView.h */,
+				EF1559FB200C92DD009182A8 /* NavBarPopMenuView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF1559FC200C92DD009182A8 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EF155A0F200C92FE009182A8 /* SearchViewController.h */,
+				EF155A10200C92FE009182A8 /* SearchViewController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		EF1559FD200C92DD009182A8 /* Choice */ = {
+			isa = PBXGroup;
+			children = (
+				EF1559FE200C92DD009182A8 /* ChoicenessViewController.h */,
+				EF1559FF200C92DD009182A8 /* ChoicenessViewController.m */,
+			);
+			path = Choice;
+			sourceTree = "<group>";
+		};
+		EF155A00200C92DD009182A8 /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				EF155A01200C92DD009182A8 /* RankViewController.h */,
+				EF155A02200C92DD009182A8 /* RankViewController.m */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		EF155A03200C92DD009182A8 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				EF155A04200C92DD009182A8 /* AccountViewController.h */,
+				EF155A05200C92DD009182A8 /* AccountViewController.m */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 		EFFFE0D52008544E002C868D /* BookStorage */ = {
@@ -672,12 +740,17 @@
 				849033B620022E0300E7CA26 /* MSSignoutAction.m in Sources */,
 				8490335D2001CF6F00E7CA26 /* ViewController.m in Sources */,
 				849033C02002E1A400E7CA26 /* BaseNavigationController.m in Sources */,
+				EF155A11200C92FE009182A8 /* SearchViewController.m in Sources */,
 				8490339F20022DF000E7CA26 /* MSUntil.m in Sources */,
+				EF155A07200C92DE009182A8 /* BookShelfHotModel.m in Sources */,
+				EF155A0D200C92DE009182A8 /* RankViewController.m in Sources */,
 				8490338120022DDD00E7CA26 /* BaseViewController.m in Sources */,
 				849033682001CF6F00E7CA26 /* main.m in Sources */,
+				EF155A06200C92DE009182A8 /* BookShelfViewController.m in Sources */,
 				8490339B20022DE900E7CA26 /* UIImage+Common.m in Sources */,
-				849033E5200B838700E7CA26 /* BookShelfCollectionViewCell.m in Sources */,
 				EFFFE0DF2008544E002C868D /* LCActionCheckAppVersion.m in Sources */,
+				EF155A09200C92DE009182A8 /* BookShelfModel.m in Sources */,
+				EF155A14200C9390009182A8 /* BaseSecondViewController.m in Sources */,
 				849033C32002E1E400E7CA26 /* BaseTabBarViewController.m in Sources */,
 				EF1559D020088D1A009182A8 /* LCActionChapterContent.m in Sources */,
 				849033BD20022E0800E7CA26 /* MSHttpActionMgr.m in Sources */,
@@ -685,22 +758,17 @@
 				849033B520022E0300E7CA26 /* MSConfirmCodeAction.m in Sources */,
 				8490339820022DE900E7CA26 /* UIView+Frame.m in Sources */,
 				849033C62002E20600E7CA26 /* MainViewController.m in Sources */,
-				849033CF2002E2CC00E7CA26 /* RankViewController.m in Sources */,
 				8490339620022DE900E7CA26 /* UIColor+expanded.m in Sources */,
-				849033CC2002E2BA00E7CA26 /* ChoicenessViewController.m in Sources */,
 				EFFFE0E320085461002C868D /* LCActionUserLogin.m in Sources */,
 				849033B720022E0300E7CA26 /* MSLoginAction.m in Sources */,
-				849033DE200B100100E7CA26 /* BookShelfHotModel.m in Sources */,
-				849033C92002E29F00E7CA26 /* BookShelfViewController.m in Sources */,
 				849033B320022E0300E7CA26 /* MSActionFindPWD.m in Sources */,
 				EF1559DC2008A321009182A8 /* BaseWebViewController.m in Sources */,
 				8490339420022DE900E7CA26 /* UILabel+Common.m in Sources */,
 				EFFFE0E6200854DC002C868D /* LCActionUserStatus.m in Sources */,
 				EFFFE0EC200856C2002C868D /* LCActionMobileLogin.m in Sources */,
-				849033DB200B0DC100E7CA26 /* BookShelfModel.m in Sources */,
 				8490339C20022DE900E7CA26 /* UIImage+ResizeImage.m in Sources */,
-				849033D22002E2D700E7CA26 /* AccountViewController.m in Sources */,
 				EF1559D62008917B009182A8 /* LCActionRecommend.m in Sources */,
+				EF155A0B200C92DE009182A8 /* NavBarPopMenuView.m in Sources */,
 				EF1559D320088E35009182A8 /* LCActionAdd.m in Sources */,
 				EF1559E82008C906009182A8 /* LCActionUserReceive.m in Sources */,
 				849033B220022E0300E7CA26 /* MSStoreService.m in Sources */,
@@ -710,16 +778,20 @@
 				EFFFE0E02008544E002C868D /* LCActionSendSmsAuthCode.m in Sources */,
 				8490339520022DE900E7CA26 /* UIViewController+Tracking.m in Sources */,
 				EF1559CA20088BE8009182A8 /* LCActionBookInfo.m in Sources */,
+				EF155A0A200C92DE009182A8 /* BookShelfCollectionViewCell.m in Sources */,
 				849033B020022E0300E7CA26 /* MSActionBase.m in Sources */,
 				8490339720022DE900E7CA26 /* UIView+Common.m in Sources */,
+				EF155A1D200CB53D009182A8 /* LCSegmentView.m in Sources */,
 				EF1559D9200895E6009182A8 /* Temp.m in Sources */,
-				849033E1200B116000E7CA26 /* BookShelfItemModel.m in Sources */,
 				EF1559DF2008B9CB009182A8 /* LCActionSearchHot.m in Sources */,
 				EFFFE0DE2008544E002C868D /* LCActionMobileRegister.m in Sources */,
 				EFFFE0E92008552C002C868D /* LCActionActivation.m in Sources */,
+				EF155A0E200C92DE009182A8 /* AccountViewController.m in Sources */,
 				8490339A20022DE900E7CA26 /* CALayer+BLayerBorderColor.m in Sources */,
 				EF1559E52008BB9C009182A8 /* LCActionBookCharts.m in Sources */,
 				849033BC20022E0800E7CA26 /* MSResponeResult.m in Sources */,
+				EF155A08200C92DE009182A8 /* BookShelfItemModel.m in Sources */,
+				EF155A0C200C92DE009182A8 /* ChoicenessViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

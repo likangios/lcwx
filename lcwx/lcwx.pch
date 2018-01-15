@@ -15,6 +15,7 @@
 #import <UIImageView+WebCache.h>
 #import <MBProgressHUD.h>
 #import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
 #import <ReactiveObjC.h>
 #import <XRWaterfallLayout.h>
 #import <TTGTagCollectionView.h>
@@ -74,7 +75,10 @@ static const int ddLogLevel = DDLogLevelOff;
 
 #define hi_color_a(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 
-#define lineColor [UIColor colorWithHexString:@"e5e5e5"]
+#define lineColor       [UIColor colorWithHexString:@"e5e5e5"]
+
+#define mainColor_red   [UIColor colorWithHexString:@"ef554e"]
+
 
 /**
  *  等于某个版本号

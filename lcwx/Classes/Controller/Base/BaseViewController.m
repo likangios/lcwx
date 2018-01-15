@@ -173,7 +173,7 @@
 
 - (void)addDefaultBackItem{
     
-    [self setLeftItemImage:@"nav_back_icon"];
+    [self setLeftItemImage:@"button_back_11x20_"];
 
 }
 - (void)setNavBarTitle:(NSString *)title{

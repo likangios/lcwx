@@ -22,7 +22,6 @@
 
 - (instancetype)initWithUrl:(NSString *)url{
     self = [super init];
-    self.hidesBottomBarWhenPushed =YES;
     if (self) {
         self.url = url;
     }

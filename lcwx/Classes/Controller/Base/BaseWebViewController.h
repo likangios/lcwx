@@ -6,9 +6,9 @@
 //  Copyright © 2018年 luck. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "BaseSecondViewController.h"
 
-@interface BaseWebViewController : BaseViewController
+@interface BaseWebViewController : BaseSecondViewController
 
 - (instancetype)initWithUrl:(NSString *)url;
 
