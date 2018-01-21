@@ -43,27 +43,20 @@
         make.top.equalTo(self.customNavBar.mas_bottom);
     }];
 }
--(void)rightItemAction:(id)sender{
-    SearchViewController *search = [[SearchViewController alloc]init];
-    [self.navigationController pushViewController:search animated:YES];
-}
-- (void)leftItemAction:(id)sender{
-    NavBarPopMenuView *popViwe =[[NavBarPopMenuView alloc]init];
-    [self.view addSubview:popViwe];
-    [popViwe mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
-    }];
-    
-}
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    [self refreshData];
+}
+- (void)refreshData{
     LCActionInit *action =[[LCActionInit alloc]initWithIsFir:@0];
+    MJWeakSelf;
     [action DoActionWithSuccess:^(MSActionBase *action, id responseObject, NSURLSessionDataTask *operation) {
         MSResponeResult *result = [MSResponeResult createWithResponeObject:responseObject];
-        self.model = [BookShelfModel mj_objectWithKeyValues:result.try_get_data_with_dict];
-        [self.collectionView reloadData];
+        weakSelf.model = [BookShelfModel mj_objectWithKeyValues:result.try_get_data_with_dict];
+        [weakSelf.collectionView reloadData];
+        [weakSelf.collectionView.mj_header endRefreshing];
     } Failure:^(MSActionBase *action, NSError *error, NSURLSessionDataTask *operation) {
-        
+        [weakSelf.collectionView.mj_header endRefreshing];
     }];
 }
 - (UICollectionView *)collectionView{
@@ -82,34 +75,45 @@
         _collectionView.showsHorizontalScrollIndicator = NO;
         _collectionView.showsVerticalScrollIndicator = NO;
         [_collectionView registerClass:[BookShelfCollectionViewCell class] forCellWithReuseIdentifier:@"BookShelfCollectionViewCell"];
+        MJWeakSelf;
         _collectionView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
-            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                [_collectionView.mj_header endRefreshing];
-            });
+            [weakSelf refreshData];
         }];
     }
     return _collectionView;
 }
+#pragma mark - UICollectionDelegate
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-//    return self.model.hot.count;
-    return 0;
+    return self.model.hot.count;
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     BookShelfCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"BookShelfCollectionViewCell" forIndexPath:indexPath];
     BookShelfHotModel *model = self.model.hot[indexPath.row];
     cell.model = model;
-//    cell.backgroundColor = [UIColor whiteColor];
     return cell;
+}
+#pragma mark - action
+
+-(void)rightItemAction:(id)sender{
+    SearchViewController *search = [[SearchViewController alloc]init];
+    [self.navigationController pushViewController:search animated:YES];
+}
+- (void)leftItemAction:(id)sender{
+    NavBarPopMenuView *popViwe =[[NavBarPopMenuView alloc]init];
+    [self.view addSubview:popViwe];
+    [popViwe mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    BaseWebViewController *web = [[BaseWebViewController alloc]initWithUrl:@"http://client.v4.luochen.com//h5/booklistcomplete.aspx"];
-    [self.navigationController pushViewController:web animated:YES];
-}
+//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    BaseWebViewController *web = [[BaseWebViewController alloc]initWithUrl:@"http://client.v4.luochen.com//h5/booklistcomplete.aspx"];
+//    [self.navigationController pushViewController:web animated:YES];
+//}
 /*
 #pragma mark - Navigation
 

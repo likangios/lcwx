@@ -7,8 +7,11 @@
 //
 
 #import "ChoicenessViewController.h"
-
+#import "LCActionRecommend.h"
 @interface ChoicenessViewController ()
+
+@property(nonatomic,strong) UITableView *tableView;
+
 
 @end
 
@@ -17,6 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+- (UITableView *)tableView{
+    if (!_tableView) {
+        _tableView = [[UITableView alloc]init];
+    }
+    return _tableView;
 }
 
 - (void)didReceiveMemoryWarning {

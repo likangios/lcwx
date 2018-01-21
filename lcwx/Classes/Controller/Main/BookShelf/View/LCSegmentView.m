@@ -87,7 +87,7 @@
 - (UIView *)underLineView{
     if (!_underLineView) {
         _underLineView = [UIView new];
-        _underLineView.backgroundColor = kMAIN_COLOR_ORANGE;
+        _underLineView.backgroundColor = mainColor_red;
 
     }
     return _underLineView;
