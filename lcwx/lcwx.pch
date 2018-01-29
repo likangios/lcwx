@@ -77,8 +77,9 @@ static const int ddLogLevel = DDLogLevelOff;
 
 #define lineColor       [UIColor colorWithHexString:@"e5e5e5"]
 
-#define mainColor_red   [UIColor colorWithHexString:@"ef554e"]
+#define mainColor_red   [UIColor colorWithHexString:@"f25449"]
 
+#define mainFontColor_black   [UIColor colorWithHexString:@"333333"]
 
 /**
  *  等于某个版本号

@@ -34,9 +34,9 @@
         for (int i = 0; i<self.titles.count; i++) {
             UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
             [btn setTitle:titles[i] forState:UIControlStateNormal];
-            [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+            [btn setTitleColor:mainFontColor_black forState:UIControlStateNormal];
             btn.tag = i+1;
-            btn.titleLabel.font = [UIFont systemFontOfSize:15];
+            btn.titleLabel.font = [UIFont systemFontOfSize:17];
             [self.mainView addSubview:btn];
             [btn mas_makeConstraints:^(MASConstraintMaker *make) {
                 make.top.bottom.mas_equalTo(0);
@@ -87,7 +87,7 @@
 - (UIView *)underLineView{
     if (!_underLineView) {
         _underLineView = [UIView new];
-        _underLineView.backgroundColor = kMAIN_COLOR_ORANGE;
+        _underLineView.backgroundColor = mainColor_red;
 
     }
     return _underLineView;

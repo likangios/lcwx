@@ -12,6 +12,8 @@
 //view
 #import "BookShelfCollectionViewCell.h"
 #import "NavBarPopMenuView.h"
+#import "LCSegmentView.h"
+
 //model
 #import "BookShelfModel.h"
 //request
@@ -42,6 +44,18 @@
         make.right.mas_equalTo(-kAUTOSCALE_WIDTH(18));
         make.top.equalTo(self.customNavBar.mas_bottom);
     }];
+    
+    LCSegmentView *sgview = [[LCSegmentView alloc]initWithFrame:CGRectZero WithTitles:@[@"我的书架",@"阅读记录"]];
+    [self.customNavBar addSubview:sgview];
+    [sgview mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.customNavBar);
+        make.bottom.mas_equalTo(0);
+        make.height.mas_equalTo(kAUTOSCALE_WIDTH(23));
+    }];
+    [sgview setBtnClickBlock:^(NSInteger index) {
+        
+    }];
+    
 }
 -(void)rightItemAction:(id)sender{
     SearchViewController *search = [[SearchViewController alloc]init];
